@@ -15,8 +15,11 @@ The solution consist of three projects
 ##Sequence to start the apps
 
 1- Ist start API "customer-service-discovery-server" from project home using command "mvn spring-boot run". It is implemented using Eureka and can be accessed now http://localhost:8010/
+
 2- Start customer-profile-service, once started it registered it self on eureka discovery server
+
 3- Start API GATEWAY, "api-gateway", gateway is exposed on 8080 port
+
 
 Three services URL's are using post mapping
 
